@@ -23,18 +23,16 @@ namespace Tyuiu.YushkovaES.Sprint1.Task0.V24
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
             Console.WriteLine("**************************************************************************");
 
-            int x, y;
             Console.Write("Введите значение x: ");
-
-            x = Convert.ToInt32(Console.ReadLine());
+            double a = Convert.ToDouble(Console.ReadLine());
             Console.Write("Введите значение y: ");
-            y = Convert.ToInt32(Console.ReadLine());
+            double b = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            Console.WriteLine("Ответ выражения = " + ($"{ds.Calculate(x, y):F3}"));
+            Console.WriteLine("Ответ выражения = " + ($"{ds.Calculate(a, b):F3}"));
             Console.ReadKey();
 
 
