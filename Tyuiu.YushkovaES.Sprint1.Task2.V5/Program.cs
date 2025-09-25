@@ -17,7 +17,7 @@ namespace Tyuiu.YushkovaES.Sprint1.Task2.V5
             Console.WriteLine("* Выполнил: Екатерина Е. С | ИСПб-25-1                                   *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                               *");
-            Console.WriteLine("* Известна длина стороны куба.                                           *");
+            Console.WriteLine("* Известна длина стороны куба                                            *");
             Console.WriteLine("* Вычислить площадь боковой поверхности куба.                            *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
