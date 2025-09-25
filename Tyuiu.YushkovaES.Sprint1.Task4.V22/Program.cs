@@ -35,7 +35,7 @@ namespace Tyuiu.YushkovaES.Sprint1.Task0.V24
             
             
             double result = ds.Calculate(x, y);
-            Console.WriteLine("Ответ выражения = " + result.ToString("F3")); 
+            Console.WriteLine("Ответ выражения = " + result.ToString("F3", CultureInfo.InvariantCulture)); 
             Console.ReadKey();
 
 
