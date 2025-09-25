@@ -1,4 +1,5 @@
-﻿using Tyuiu.YushkovaES.Sprint1.Task4.V22.Lib;
+﻿using System.Globalization;
+using Tyuiu.YushkovaES.Sprint1.Task4.V22.Lib;
 
 namespace Tyuiu.YushkovaES.Sprint1.Task0.V24
 {
@@ -24,16 +25,19 @@ namespace Tyuiu.YushkovaES.Sprint1.Task0.V24
             Console.WriteLine("**************************************************************************");
 
             Console.Write("Введите значение x: ");
-            double a = Convert.ToDouble(Console.ReadLine());
+            double x = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Введите значение y: ");
-            double b = Convert.ToDouble(Console.ReadLine());
+            double y = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine("*******************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ: *");
+            Console.WriteLine("*******************************************************************************");
 
-            Console.WriteLine("**************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
-            Console.WriteLine("**************************************************************************");
-
-            Console.WriteLine("Ответ выражения = " + ($"{ds.Calculate(a, b):F3}"));
+            
+            
+            double result = ds.Calculate(x, y);
+            Console.WriteLine("Ответ выражения = " + result.ToString("F3")); 
             Console.ReadKey();
+
 
 
         }

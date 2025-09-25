@@ -12,7 +12,7 @@ namespace Tyuiu.YushkovaES.Sprint1.Task4.V22.Test
             double y = 5;
             double wait = 0.023;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(wait, res, 0.001);
+            Assert.AreEqual(wait, res);
         }
     }
 }
