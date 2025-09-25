@@ -34,7 +34,7 @@ namespace Tyuiu.YushkovaES.Sprint1.Task0.V24
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            Console.WriteLine("Ответ выражения = " + ds.Calculate(x, y));
+            Console.WriteLine("Ответ выражения = " + ($"{ds.Calculate(x, y):F3}"));
             Console.ReadKey();
 
 
