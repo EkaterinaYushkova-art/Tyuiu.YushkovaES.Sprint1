@@ -25,9 +25,9 @@ namespace Tyuiu.YushkovaES.Sprint1.Task0.V24
             Console.WriteLine("**************************************************************************");
 
             Console.Write("Введите значение x: ");
-            double x = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double x = Convert.ToDouble(Console.ReadLine());
             Console.Write("Введите значение y: ");
-            double y = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double y = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("*******************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ: *");
             Console.WriteLine("*******************************************************************************");
@@ -35,7 +35,7 @@ namespace Tyuiu.YushkovaES.Sprint1.Task0.V24
             
             
             double result = ds.Calculate(x, y);
-            Console.WriteLine("Ответ выражения = " + result.ToString("F3", CultureInfo.InvariantCulture)); 
+            Console.WriteLine("Ответ выражения = " + ($"{ds.Calculate(x, y):F3}")); 
             Console.ReadKey();
 
 

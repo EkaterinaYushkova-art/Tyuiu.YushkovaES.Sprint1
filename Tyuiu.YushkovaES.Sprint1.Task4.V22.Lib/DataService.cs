@@ -5,7 +5,7 @@ namespace Tyuiu.YushkovaES.Sprint1.Task4.V22.Lib
     {
         public double Calculate(double x, double y)
         {
-            return Math.Sqrt(x * y) / (1 + Math.Pow(x + 2 * y, 2));
+            return Math.Round(Math.Sqrt(x * y) / (1 + Math.Pow(x + 2 * y, 2)));
             
         }
     }
