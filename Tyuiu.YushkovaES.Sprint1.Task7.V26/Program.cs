@@ -21,6 +21,11 @@ namespace Tyuiu.YushkovaES.Sprint1.Task0.V24
             Console.WriteLine("* по исходным значениям данных,вводимых пользователем.                   *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
+            Console.WriteLine("*           2                                                            *");
+            Console.WriteLine("*       sinx + y       xy - 12                                           *");
+            Console.WriteLine("*   z = --------  -   ---------                                          *");
+            Console.WriteLine("*         y + 1              2                                           *");
+            Console.WriteLine("*                      34 + x                                            *");
             Console.WriteLine("**************************************************************************");
             Console.Write("Введите x: ");
             double x = Convert.ToDouble(Console.ReadLine());
